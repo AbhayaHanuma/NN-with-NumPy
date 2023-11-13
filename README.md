@@ -23,6 +23,12 @@ To install this project, you can clone this repository using the following comma
 
 Alternatively, you can download the zip file from the GitHub page and extract it to your preferred location.
 
+## Usage
+
+To run the code and see how the cost is changing, run the following command.
+
+`sh run.sh` or `python3 main.py`
+
 ## Contributing
 If you want to contribute to this project, you are welcome to do so. You can fork this repository, make your changes, and submit a pull request. You can also open an issue to report any bugs or suggest any improvements.
 
