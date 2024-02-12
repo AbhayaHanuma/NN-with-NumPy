@@ -1,12 +1,12 @@
-from src.model import NNmodel
-from src.dense_layer import Layer
-from src.utils import *
-from src.dataset import load_dataset
+from numpifyml.nn.model import NNmodel
+from numpifyml.nn.dense_layer import Layer
+from numpifyml.nn.utils import *
+from numpifyml.nn.dataset import load_dataset
 
 if __name__=='__main__':
     x_train, y_train, x_test, y_test, classes = load_dataset()
 
-    epochs = 1501
+    epochs = 1000
     inputs = x_train.shape[0]
 
     model = NNmodel(epochs=epochs)

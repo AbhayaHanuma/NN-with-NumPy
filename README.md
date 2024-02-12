@@ -23,6 +23,10 @@ To install this project, you can clone this repository using the following comma
 
 Alternatively, you can download the zip file from the GitHub page and extract it to your preferred location.
 
+Install required packages and NumpifyML using
+
+`pip install -r requirements.txt`
+
 ## Usage
 
 To run the code and see how the cost is changing, run the following command.

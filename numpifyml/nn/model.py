@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.utils import d_logloss, logloss
+from numpifyml.nn.utils import d_logloss, logloss
 
 class NNmodel:
     def __init__(self, epochs):

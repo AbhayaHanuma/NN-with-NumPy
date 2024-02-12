@@ -1,5 +1,5 @@
 import numpy as np
-from src.utils import *
+from numpifyml.nn.utils import *
 
 #Layer class
 class Layer:
